@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">\"Попутчик\" АРМ</string>
+    <string name="action_settings">Настройки сервера</string>
+    <string name="login_user">Имя пользователя:</string>
+    <string name="login_pass">Пароль:</string>
+    <string name="btn_edit">Вход</string>
+    <string name="btnZakaz">МОИ ЗАКАЗЫ</string>
+    <string name="btnCalls">МОИ УВЕДОМЛЕНИЯ</string>
+    <string name="btnFilms">ЗАЯВКИ</string>
+    <string name="tv_vagons">Ваши вагоны:</string>
+    <string name="monitoring_stop">Мониторинг остановлен</string>
+    <string name="monitoring_start">Мониторинг запущен</string>
+    <string name="title_activity_login">Авторизация</string>
+    <string name="login_server">Имя сервера:</string>
+    <string name="login_vagon">Обслуживаемые вагоны:</string>
+    <string name="login_fio">Ф.И.О. проводника:</string>
+    <string name="solt">e456cae1ea22363c83fdcf4fc6cc0f0a</string>
+
+    <string name="title_activity_fullscreen">ChatActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

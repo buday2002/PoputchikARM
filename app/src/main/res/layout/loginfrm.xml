@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/layoutFIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/tvFIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_fio"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/etFIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutVagons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/tvVagons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_vagon"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/etVagons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layoutUser"
+        android:accessibilityLiveRegion="polite"
+        android:baselineAligned="false"
+        android:layoutMode="clipBounds"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_server"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/etServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

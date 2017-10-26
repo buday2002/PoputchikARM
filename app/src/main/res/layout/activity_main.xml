@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/round"
+    tools:context="com.dvl.arm.arm.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/round"
+        android:layout_height="match_parent"
+        android:weightSum="1"><![CDATA[
+       // android:background="?android:attr/searchWidgetCorpusItemBackground">
+
+        ]]>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03">
+
+            <ImageButton
+                android:layout_width="36dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/start"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="false"
+                android:id="@+id/StartButton"
+                android:elevation="0dp"
+                android:scaleType="fitEnd"
+                android:layout_weight="0.01"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:text="Мониторинг остановлен"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStart"
+                android:layout_weight="0.01"
+                android:textSize="12sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/sh"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageButton"
+                android:layout_weight="0.18"
+                android:elevation="0dp"
+                android:scaleType="fitEnd" />
+            <ImageButton
+                android:id="@+id/imageExit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0.02"
+                android:background="@android:color/transparent"
+                android:elevation="0dp"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/logout" />
+        </LinearLayout>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/txtName"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="5dp"
+            android:text="@string/tv_vagons"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+            android:text="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNumber"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/background_dark" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/arm"
+            tools:ignore="ObsoleteLayoutParam"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_weight="0.37" />
+
+        <Button
+            android:id="@+id/btnZakaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round"
+            android:onClick="zakazClick"
+            android:text="@string/btnZakaz"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <Button
+            android:id="@+id/btnCalls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:textAllCaps="false"
+            android:text="@string/btnCalls" />
+
+        <Button
+            android:id="@+id/btnFilms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:textAllCaps="false"
+            android:text="@string/btnFilms" />
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
